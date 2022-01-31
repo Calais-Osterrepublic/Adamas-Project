@@ -719,3 +719,5 @@ planet Crozonite
 	bribe 0.9
 	security 0.9
 
+planet "Reminder Vortex"
+planet "Remembrance Vortex"
