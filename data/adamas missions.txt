@@ -11,6 +11,7 @@
 mission "Adamas Wormhole Opens"
 	name "Investigate wormhole"
 	invisible
+	landing
 	description "Opens the Adamas wormhole - you shouldn't be seeing this."
 	waypoint "At Andol"
 	destination "Maker"
