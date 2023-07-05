@@ -115,7 +115,7 @@ ship "Scavenger Scrapper" "Scavenger Scrapper (Adamas, Fractal)"
 	turret "Shatterer"
 
 
-ship "Scavenger Scrapper" Scavenger Scrapper (Adamas, Needler-T)"
+ship "Scavenger Scrapper" "Scavenger Scrapper (Adamas, Needler-T)"
 	outfits
 		"Ruby Surveyor" 1
 		"Adamas Ruby Core"
