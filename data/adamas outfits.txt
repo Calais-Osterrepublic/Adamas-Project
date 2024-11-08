@@ -10,23 +10,23 @@
 
 outfit "Miniature Heat Disperser"
 	category "Systems"
-	cost 375000
+	cost 400000
 	thumbnail "outfit/miniatureheatdisperser"
 	"mass" 12
 	"outfit space" -12
 	"cooling" 30
-	"ramscoop" 1
+	"fuel generation" 0.3
 	description "This coolant system is made for Adamas ships. It produces a small amount of hyperspace fuel, as well as significantly cooling your ship."
 	
 	
 outfit "Massive Heat Disperser"
 	category "Systems"
-	cost 950000
+	cost 1100000
 	thumbnail "outfit/massiveheatdisperser"
-	"mass" 20
-	"outfit space" -20
+	"mass" 22
+	"outfit space" -22
 	"cooling" 55
-	"ramscoop" 3
+	"fuel generation" 1
 	description "The Adamas need powerful cooling systems for their larger ships, because of their massive weapon and engine systems. They've also found a way to efficiently produce hyperspace fuel in their coolant systems without a drastic size increase."
 	
 	
