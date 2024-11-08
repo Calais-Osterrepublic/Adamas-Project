@@ -88,10 +88,10 @@ ship "Vitreus"
 		licenses
 			"Vitreus"
 		category "Light Warship"
-		"cost" 11200000
+		"cost" 15000000
 		"self destruct" .25
-		"shields" 20800
-		"hull" 3750
+		"shields" 18700
+		"hull" 3000
 		"required crew" 10
 		"bunks" 22
 		"mass" 130
@@ -144,12 +144,12 @@ ship "Shard"
 		licenses
 			"Shard"
 		category "Medium Warship"
-		"cost" 24400000
+		"cost" 25000000
 		"self destruct" .25
-		"shields" 61600
-		"hull" 16700
-		"required crew" 34
-		"bunks" 78
+		"shields" 60000
+		"hull" 8500
+		"required crew" 40
+		"bunks" 70
 		"mass" 440
 		"energy generation" .1
 		"drag" 8.3
@@ -202,24 +202,24 @@ ship "Colossus"
 		licenses
 			"Colossus"
 		category "Heavy Warship"
-		"cost" 41900000
+		"cost" 60000000
 		"self destruct" .25
-		"shields" 131000
-		"hull" 61200
-		"required crew" 28
-		"bunks" 195
+		"shields" 100000
+		"hull" 40000
+		"required crew" 30
+		"bunks" 200
 		"mass" 950
 		"energy generation" .1
-		"drag" 20.1
-		"heat dissipation" .8
+		"drag" 21.1
+		"heat dissipation" .75
 		"fuel capacity" 800
 		"cargo space" 300
 		"outfit space" 1470
 		"weapon capacity" 620
 		"engine capacity" 250
 		weapon
-			"blast radius" 784
-			"shield damage" 7840
+			"blast radius" 900
+			"shield damage" 10000
 			"hull damage" 3920
 			"hit force" 12760
 	outfits
@@ -234,7 +234,7 @@ ship "Colossus"
 		"Ruby Reverse Thruster"
 		"Jump Drive"
 		"Interior Autoturret" 75
-		"Anti-Personnel Battlesuit" 80
+		"Anti-Personnel Battlesuit" 10
 		"Hyperdrive"
 	engine 71 178
 	engine 96.5 178
@@ -268,22 +268,22 @@ ship "Vault"
 		licenses
 			"Vault"
 		category "Heavy Freighter"
-		"cost" 36300000
+		"cost" 36000000
 		"self destruct" .25
-		"shields" 44000
-		"hull" 13500
+		"shields" 40000
+		"hull" 10000
 		"required crew" 5
-		"bunks" 30
-		"mass" 620
+		"bunks" 20
+		"mass" 600
 		"energy generation" .1
-		"drag" 8.4
+		"drag" 8.1
 		"heat dissipation" .7
-		"ramscoop" 13
+		"ramscoop" 5
 		"fuel capacity" 1000
-		"cargo space" 675
-		"outfit space" 430
+		"cargo space" 700
+		"outfit space" 400
 		"weapon capacity" 130
-		"engine capacity" 95
+		"engine capacity" 100
 		"inscrutable" 1
 		weapon
 			"blast radius" 357
@@ -323,10 +323,10 @@ ship "Blaze"
 		licenses
 			"Colossus"
 		category "Fighter"
-		"cost" 550000
+		"cost" 500000
 		"self destruct" .25
-		"shields" 2750
-		"hull" 1500
+		"shields" 3000
+		"hull" 1000
 		"required crew" 1
 		"bunks" 1
 		"mass" 70
@@ -346,7 +346,6 @@ ship "Blaze"
 		"Needle Shard" 800
 		"Adamas Amethyst Thruster"
 		"Adamas Amethyst Steering"
-		"Interior Autoturret"
 		"Ruby Surveyor"
 		"Miniature Heat Disperser"
 		"Adamas Amethyst Core"
@@ -367,13 +366,13 @@ ship "Amber"
 		category "Drone"
 		"cost" 250000
 		"self destruct" .25
-		"shields" 1750
+		"shields" 2000
 		"automaton" 1
-		"hull" 100
+		"hull" 50
 		"mass" 30
 		"drag" 0.8
 		"energy generation" 2.6
-		"energy capacity" 425
+		"energy capacity" 400
 		"heat dissipation" .9
 		"outfit space" 74
 		"weapon capacity" 28
