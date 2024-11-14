@@ -16,7 +16,7 @@ outfit "Miniature Heat Disperser"
 	"outfit space" -12
 	"cooling" 30
 	"fuel generation" 0.3
-	description "This coolant system is made for Adamas ships. It produces a small amount of hyperspace fuel, as well as significantly cooling your ship."
+	description ""
 	
 	
 outfit "Massive Heat Disperser"
@@ -27,50 +27,54 @@ outfit "Massive Heat Disperser"
 	"outfit space" -22
 	"cooling" 55
 	"fuel generation" 1
-	description "The Adamas need powerful cooling systems for their larger ships, because of their massive weapon and engine systems. They've also found a way to efficiently produce hyperspace fuel in their coolant systems without a drastic size increase."
+	description ""
 	
 	
 outfit "A.S.R. Mk I"
 	category "Systems"
-	cost 3200000
+	cost 4000000
 	thumbnail "outfit/asrmk1"
 	"mass" 31
 	"outfit space" -31
-	"shield energy" 1.2
-	"shield generation" 1.4
-	description "This smallest generator is half the size of large human generators, but produces about the same amount, at the cost of less energy."
+	"depleted shield delay" 500
+	"delayed shield energy" 1.2
+	"delayed shield generation" 1.2
+	description "The smallest of Adamas shield generators generate about as much as the largest human outfits, and generate about as much, at the cost of delayed regeneration should the large shield reserves of the Adamas ever go down."
+	description "This variety of shield generation isn't too intensive, and doesn't require the hyperspace fuel needed by bigger shield regenerators, preferring to use ship energy instead."
 
-	
 outfit "A.S.R. Mk II"
 	category "Systems"
-	cost 9800000
+	cost 10000000
 	thumbnail "outfit/asrmk2"
-	"mass" 52
-	"outfit space" -52
-	"shield energy" 2.6
-	"shield generation" 3.1
-	description "This medium-sized Adamas shield generator is about the same size as the largest human shield generator - and twice as powerful."
+	"mass" 60
+	"outfit space" -60
+	"depleted shield delay" 500
+	"delayed shield fuel" 0.3
+	"delayed shield generation" 2.62
+	description "The secret to Adamas shield power lies in their use of hyperspace fuel for their shields, rather than tapping into ship generators. All you can figure is that use of this shield generator works similar to the unique variety of jump drive technology the Adamas have on hand."
 	
 	
 outfit "A.S.R. Mk III"
 	category "Systems"
-	cost 21000000
+	cost 25000000
 	thumbnail "outfit/asrmk3"
 	"mass" 72
 	"outfit space" -72
-	"shield energy" 3.9
-	"shield generation" 4.6
-	description "The Adamas have much more powerful and efficient shield generators than humans, requiring less energy to repair the same amount of shielding."
+	"depleted shield delay" 1500
+	"delayed shield energy" 2.4
+	"delayed shield fuel" 1
+	"delayed shield generation" 5.24
+	description "While the standard A.S.R. Mk II worked fine on its own, scaling up the reaction that generated Adamas shields could not be done without support from the ship's generators. Despite the constant need for fuel, this regenerator beats out most others in the galaxy."
 	
 	
 outfit "Ruby Surveyor"
 	category "Systems"
-	cost 134000
+	cost 130000
 	thumbnail "outfit/surveyor"
 	"mass" 4
 	"outfit space" -4
-	"outfit scan" 700
-	"cargo scan" 650
+	"outfit scan" 70
+	"cargo scan" 65
 	"atmosphere scan" 200
 	description ""
 	
@@ -79,7 +83,7 @@ outfit "Anti-Personnel Battlesuit"
 	category "Hand to Hand"
 	cost 1750000
 	thumbnail "outfit/battlesuit"
-	"capture attack" 80
+	"capture attack" 8
 	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms without endangering any allies. However, they come with a high price tag."
 	
 	
@@ -87,7 +91,7 @@ outfit "Interior Autoturret"
 	category "Hand to Hand"
 	cost 100000
 	thumbnail "outfit/autoturret"
-	"capture defense" 75
+	"capture defense" 19.5
 	description "Adamas Interior Autoturrets are miniaturized turrets made to protect the inside of a ship from boarders."
 	
 	
@@ -100,7 +104,7 @@ outfit "Adamas Amethyst Core"
 	"energy generation" 10.4
 	"heat generation" 27.56
 	"energy capacity" 200
-	description "Amethyst Core"
+	description "Amethyst Cores are the smallest of Adamas reactors, providing power for their smaller ships and for their weapons."
 
 	
 outfit "Adamas Onyx Core"
@@ -111,8 +115,8 @@ outfit "Adamas Onyx Core"
 	"outfit space" -81
 	"energy generation" 24.8
 	"heat generation" 91.9
-	"energy capacity" 1750
-	description "Onyx Cores are medium-sized reactors made for Adamas medium warships."
+	"energy capacity" 2000
+	description "As time went on, the Adamas learned that full readiness at all times helps when protecting from Scappers and Milky Way inhabitants alike. While their energy generation capacity can be met only by a select few others in the galaxy, they rival the Korath in their heat generation"
 
 	
 outfit "Adamas Ruby Core"
@@ -122,7 +126,7 @@ outfit "Adamas Ruby Core"
 	"mass" 175
 	"outfit space" -175
 	"energy generation" 52.4
-	"heat generation" 197.8
+	"heat generation" 200
 	"energy capacity" 4500
 	description "Ruby Cores are made for the largest of Adamas ships. Producing more energy than reactors of almost any other race, they are the Adamas specialty."
 	
